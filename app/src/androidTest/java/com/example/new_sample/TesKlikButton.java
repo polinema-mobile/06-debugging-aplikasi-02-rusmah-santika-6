@@ -25,131 +25,58 @@ public class TesKlikButton {
         //cari id button1 terus di klik
         onView(withId(R.id.button1)).perform(click());
         onView(withId(R.id.input)).check(matches(withText("1")));
-    }
 
-    @Test
-    public void tesKlikButtonDua(){
-        //cari id button2 terus di klik
         onView(withId(R.id.button2)).perform(click());
         onView(withId(R.id.input)).check(matches(withText("2")));
-    }
 
-    @Test
-    public void tesKlikButtonTiga(){
-        //cari id button3 terus di klik
         onView(withId(R.id.button3)).perform(click());
         onView(withId(R.id.input)).check(matches(withText("3")));
-    }
 
-    @Test
-    public void tesKlikButtonEmpat(){
-        //cari id button4 terus di klik
         onView(withId(R.id.button4)).perform(click());
         onView(withId(R.id.input)).check(matches(withText("4")));
-    }
 
-    @Test
-    public void tesKlikButtonLima(){
-        //cari id button5 terus di klik
         onView(withId(R.id.button5)).perform(click());
         onView(withId(R.id.input)).check(matches(withText("5")));
-    }
 
-    @Test
-    public void tesKlikButtonEnam(){
-        //cari id button6 terus di klik
         onView(withId(R.id.button6)).perform(click());
         onView(withId(R.id.input)).check(matches(withText("6")));
-    }
 
-    @Test
-    public void tesKlikButtonTujuh(){
-        //cari id button7 terus di klik
         onView(withId(R.id.button7)).perform(click());
         onView(withId(R.id.input)).check(matches(withText("7")));
-    }
 
-
-    @Test
-    public void tesKlikButtonDelapan(){
-        //cari id button8 terus di klik
         onView(withId(R.id.button8)).perform(click());
         onView(withId(R.id.input)).check(matches(withText("8")));
-    }
 
-    @Test
-    public void tesKlikButtonSembilan(){
-        //cari id button9 terus di klik
         onView(withId(R.id.button9)).perform(click());
         onView(withId(R.id.input)).check(matches(withText("9")));
-    }
 
-    @Test
-    public void tesKlikButtonNol(){
-        //cari id button0 terus di klik
         onView(withId(R.id.button0)).perform(click());
         onView(withId(R.id.input)).check(matches(withText("0")));
-    }
 
-    @Test
-    public void tesKlikButtonEqual(){
-        //cari id button equal terus di klik
         onView(withId(R.id.button_equal)).perform(click());
         onView(withId(R.id.input)).check(matches(withText("=")));
-    }
 
-    @Test
-    public void tesKlikButtonMulti(){
-        //cari id button multi terus di klik
         onView(withId(R.id.button_multi)).perform(click());
         onView(withId(R.id.input)).check(matches(withText("*")));
-    }
 
-    @Test
-    public void tesKlikButtonDevide(){
-        //cari id button multi terus di klik
         onView(withId(R.id.button_divide)).perform(click());
         onView(withId(R.id.input)).check(matches(withText("/")));
-    }
 
-    @Test
-    public void tesKlikButtonAdd(){
-        //cari id button multi terus di klik
         onView(withId(R.id.button_add)).perform(click());
         onView(withId(R.id.input)).check(matches(withText("+")));
-    }
 
-    @Test
-    public void tesKlikButtonSub(){
-        //cari id button1 terus di klik
         onView(withId(R.id.button_sub)).perform(click());
         onView(withId(R.id.input)).check(matches(withText("-")));
-    }
 
-    @Test
-    public void tesKlikButtonclear(){
-        //cari id button1 terus di klik
         onView(withId(R.id.button_clear)).perform(click());
         onView(withId(R.id.input)).check(matches(withText("AC")));
-    }
 
-    @Test
-    public void tesKlikButtonpara1(){
-        //cari id button1 terus di klik
         onView(withId(R.id.button_para1)).perform(click());
         onView(withId(R.id.input)).check(matches(withText("%")));
-    }
 
-    @Test
-    public void tesKlikButtonpara2(){
-        //cari id button1 terus di klik
         onView(withId(R.id.button_para2)).perform(click());
         onView(withId(R.id.input)).check(matches(withText("+/-")));
-    }
 
-    @Test
-    public void tesKlikButtondot(){
-        //cari id button1 terus di klik
         onView(withId(R.id.button_dot)).perform(click());
         onView(withId(R.id.input)).check(matches(withText(".")));
     }
